@@ -20,12 +20,11 @@ const Hero = () => {
         <img src={profile_img} alt="" />
 
         <h1>
-          <span>I'm Vrusha Patel,</span> frontend developer and Computer Engineering student.
+          <span>I'm Vrusha Patel,</span> Full-Stack Developer and Computer Engineering student.
         </h1>
 
         <p>
-          I am a skilled frontend developer from India with 2 years of experience 
-          working with HTML, CSS, JavaScript,React and modern frameworks to build high-performance websites.
+         I am a skilled Frontend Developer from India with 2 years of experience working with HTML, CSS, JavaScript, React, and modern frontend technologies to build high-performance websites. In addition, I have recently developed several full-stack MERN Stack projects, gaining practical experience with MongoDB, Express.js, React, and Node.js. My experience includes building responsive web applications, developing RESTful APIs, integrating databases, and delivering complete end-to-end solutions.
         </p>
 
         <div className="hero-action">
