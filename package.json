@@ -8,10 +8,10 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d dist"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
-  "homepage": " https://github.com/vrushapatel/Vrusha-Portfolio",
+  "homepage": " https://github.com/vrushapatel/Vrusha_Patel_Portfolio/",
   "dependencies": {
     "react": "^19.2.5",
     "react-anchor-link-smooth-scroll": "^1.0.12",

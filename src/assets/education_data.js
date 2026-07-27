@@ -15,7 +15,7 @@ const education_data = [
         year: "2023 - 2027",
         degree: "B.Tech in Computer Engineering",
         institute: "Madhuben and Bhanubhai Patel Institute Of Technology",
-        percentage: "CGPA: 9.29  (5th Sem)",
+        percentage: "CGPA: 9.38  (6th Sem)",
         current: true
     }
 ]

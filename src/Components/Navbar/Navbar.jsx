@@ -51,7 +51,7 @@ const Navbar = () => {
             onClick={() => handleClick("work")}
             className={menu === "work" ? "active" : ""}
           >
-            Portfolio
+            Work
           </p>
         </li>
 
