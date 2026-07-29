@@ -11,7 +11,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
-  "homepage": "https://vrushapatel.github.io/Vrusha_Patel_Portfolio/",
+  "homepage": "https://vrushapatel.github.io/Vrusha-Patel-Portfolio/",
   "dependencies": {
     "react": "^19.2.5",
     "react-anchor-link-smooth-scroll": "^1.0.12",
