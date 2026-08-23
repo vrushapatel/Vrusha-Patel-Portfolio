@@ -11,54 +11,35 @@ const MyWork = () => {
 
   const handleToggle = () => {
     if (showAll) {
-      setVisibleCount(3);
+      setVisibleCount(3);       // wapas 3 images
       setShowAll(false);
     } else {
-      setVisibleCount(mywork_data.length);
+      setVisibleCount(mywork_data.length); // sab show
       setShowAll(true);
     }
   };
 
   return (
     <div id='work' className='mywork'>
-
+      
       <div className="mywork-title">
-        <h1>My Work</h1>
+        <h1>My Latest Work</h1>
         <img src={theme_pattern} alt="" />
       </div>
 
       <div className="mywork-container">
         {mywork_data.slice(0, visibleCount).map((work, index) => {
-          return (
-            <a
-              key={index}
-              href={work.github_link}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <div className="mywork-card">
-                <img src={work.w_img} alt="" />
-                <h3>{work.w_name}</h3>
-
-              </div>
-            </a>
-          )
+          return <img key={index} src={work.w_img} alt="" />
         })}
       </div>
 
       <div className="mywork-showmore" onClick={handleToggle}>
         <p>{showAll ? "Show Less" : "Show More"}</p>
-
-        <img
-          src={arrow_icon}
-          alt=""
-          style={{
-            transform: showAll ? "rotate(180deg)" : "rotate(0deg)"
-          }}
+        <img src={arrow_icon} alt="" 
+          style={{ transform: showAll ? "rotate(180deg)" : "rotate(0deg)" }}
         />
       </div>
-
-      <br />
+ <br />
       <br />
       <br />
 

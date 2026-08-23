@@ -18,7 +18,7 @@ const About = () => {
                 <div className='about-right'>
                     <div className='about-para'>
                         <p>
-                              I am a Full-Stack Developer who enjoys building clean, responsive, and user-friendly websites. I like turning ideas into real designs and making sure everything looks good and works smoothly on different devices. Recently, I have also gained hands-on experience in MERN Stack development by building full-stack web applications using MongoDB, Express.js, React, and Node.js.
+                              I am a Frontend Developer who enjoys building clean, responsive, and user-friendly websites. I like turning ideas into real designs and making sure everything looks good and works smoothly on different devices. Recently, I have also gained hands-on experience in MERN Stack development by building full-stack web applications using MongoDB, Express.js, React, and Node.js.
                         </p><br />
                         <p>
                             I believe in writing simple and efficient code while focusing on good design and user experience. For me, development is not just about coding, but also about creating something that people find useful and easy to use.
