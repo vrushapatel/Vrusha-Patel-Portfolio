@@ -2,7 +2,7 @@ import project1_img from '../assets/project_1.svg'
 import project2_img from '../assets/E_Commerce.svg'
 import project3_img from '../assets/VaidyaKart.svg'
 import project4_img from '../assets/Room_Cleaner.svg'
-import project5_img from '../assets/project_5.svg'
+import project5_img from '../assets/smartquiz.svg'
 import project6_img from '../assets/project_6.svg'
 
 const mywork_data = [
@@ -31,10 +31,10 @@ const mywork_data = [
         github_link:"https://github.com/vrushapatel/Simple_Reflex_Agent_Room_Cleaner"
     },
     {
-        w_no:5,
-        w_name:"CHAT BOT",
+     w_no:5,
+        w_name:"SmartQuiz",
         w_img:project5_img,
-        github_link:"https://github.com/vrushapatel/skill-Exchange"
+        github_link:"https://github.com/vrushapatel/SmartQuiz_APP/releases/tag/v1.0.0"
     },
     {
         w_no:6,
